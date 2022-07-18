@@ -39,6 +39,7 @@ export default function GitId() {
 
 
     })
+   const logout =()=>(localStorage.removeItem(e))
 
   }
   return (
@@ -52,6 +53,7 @@ export default function GitId() {
                 <button onClick={setUpdate(e)}>update</button>
                 </Link>
                 <button onClick={()=>{onDelete(e.id)}}>Delete</button>
+                <button onClick={()=>{logout(e.id)}}>Logout</button>
 
                 
                 </>

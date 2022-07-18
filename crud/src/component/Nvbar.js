@@ -12,6 +12,7 @@ export default function Nvbar() {
     <Nav className="me-auto">
     <Link to="/Creat">Creat</Link>
     <Link to="/Users">Users</Link>
+    <Link to="/">logout</Link>
       
     </Nav>
     </Container>
